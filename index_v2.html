@@ -35,236 +35,502 @@
 <body>
   <div style="margin: 0; padding: 0; width: 100%;height: 100%;" bgcolor="#FFFFFF">
 
-     <!-- HEADER -->
-    <table align="center" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 600px;">
-      <tr>
-        <td align="center" style="padding: 10px 0 10px 0;">
-          <table width="85%" cellpadding="0" cellspacing="0" border="0" style="width: 85%;">
-            <tr>
-              <td align="right">
-                <table cellpadding="0" cellspacing="0" border="0">
-                  <tr>
-                    <td>
-                      <font face="arial, sans-serif" style="display: block; font-size:13px; color:#C5C5C5; text-align:left;">
-                        <a href="${form(campaign.name, {'usedb', true})}" target="_blank" style="color: #C5C5C5; text-decoration: underline;">
-                          ver online
-                        </a>
-                      </font>
-                    </td>
-                    <td>
-                      <font face="arial, sans-serif" style="display: block; font-size:13px; color:#C5C5C5; text-align:left;">
-                        &nbsp;|&nbsp;
-                      </font>
-                    </td>
-                    <td>
-                      <font face="arial, sans-serif" style="display: block; font-size:13px; color:#C5C5C5; text-align:left;">
-                        <a href="${form('Form_OptOut', 'CONTACTS_LIST.EMAIL_ADDRESS_')}" target="_blank" style="color: #C5C5C5; text-decoration: underline;">
-                          descadastre-se
-                        </a>
-                      </font>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-      <tr>
-        <td align="center" style="padding: 0 0 20px 0;">
-          <table width="90%" cellpadding="0" cellspacing="0" border="0" style="width: 90%; max-width: 600px;">
-            <tr>
-              <td align="left" width="19%" style="width: 19%;" valign="top">
-                <table cellpadding="0" cellspacing="0" border="0" width="90%" style="width: 90%; max-width: 89px;">
-                  <tr>
-                    <td align="left">
-                      <a href="https://www.cea.com.br/" target="_blank">
-                        <img src="https://images.cea-ecommerce.com.br/email/2023/01_janeiro/20230130/logo_cea_v3.png" width="100%" style="width:100%; max-width:89px; display:block;" border="0" alt=""/>
+   <!-- HEADER -->
+   <table align="center" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 600px;">
+    <tr>
+      <td align="center" style="padding: 10px 0 10px 0;">
+        <table width="90%" cellpadding="0" cellspacing="0" border="0" style="width: 90%; max-width: 520px;">
+          <tr>
+            <td align="right">
+              <table cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td>
+                    <font face="arial, sans-serif" style="display: block; font-size:13px; color:#C5C5C5; text-align:left;">
+                      <a href="${form(campaign.name, {'usedb', true})}" target="_blank" style="color: #C5C5C5; text-decoration: underline;">
+                        ver online
                       </a>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-              <td align="center">
-                <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width: 100%;">
-                  <tr>
-                    <td align="center" style="border-right: 2px solid #f2f2f2;">
-                      <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%;">
-                        <tr>
-                          <td align="center" valign="top">
-                            <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 12px; color:#304094; font-weight: bold;">
-                              <a href="https://www.cea.com.br/moda-feminina/colecoes/novidades" target="_blank" style="text-decoration: none; color: #304094;">
-                                feminino
-                              </a>
-                            </font>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                    <td align="center" style="border-right: 2px solid #f2f2f2;">
-                      <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%;">
-                        <tr>
-                          <td align="center" valign="top">
-                            <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 12px; color:#304094; font-weight: bold;">
-                              <a href="https://www.cea.com.br/moda-masculina/novidades" target="_blank" style="text-decoration: none; color: #304094;">
-                                masculino
-                              </a>
-                            </font>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                    <td align="center" style="border-right: 2px solid #f2f2f2;">
-                      <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%;">
-                        <tr>
-                          <td align="center" valign="top">
-                            <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 12px; color:#304094; font-weight: bold;">
-                              <a href="https://www.cea.com.br/moda-infantil/colecoes/geral?order=OrderByReleaseDateDESC" target="_blank" style="text-decoration: none; color: #304094;">
-                                infantil
-                              </a>
-                            </font>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                    <td align="center">
-                      <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%;">
-                        <tr>
-                          <td align="center" valign="top">
-                            <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 12px; color:#304094; font-weight: bold;">
-                              <a href="https://www.cea.com.br/calcados?order=OrderByReleaseDateDESC" target="_blank" style="text-decoration: none; color: #304094;">
-                                calçados
-                              </a>
-                            </font>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-    <!-- HEADER -->
+                    </font>
+                  </td>
+                  <td>
+                    <font face="arial, sans-serif" style="display: block; font-size:13px; color:#C5C5C5; text-align:left;">
+                      &nbsp;&nbsp;|&nbsp;&nbsp;
+                    </font>
+                  </td>
+                  <td>
+                    <font face="arial, sans-serif" style="display: block; font-size:13px; color:#C5C5C5; text-align:left;">
+                      <a href="${form('Form_OptOut', 'CONTACTS_LIST.EMAIL_ADDRESS_')}" target="_blank" style="color: #C5C5C5; text-decoration: underline;">
+                        descadastre-se
+                      </a>
+                    </font>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding: 0 0 20px 0;">
+        <table width="95%" cellpadding="0" cellspacing="0" border="0" style="width: 95%; max-width: 600px;">
+          <tr>
+            <td align="left" width="19%" style="width: 19%;" valign="middle">
+              <table cellpadding="0" cellspacing="0" border="0" width="82%" style="width: 82%; max-width: 106px;">
+              <tr>
+                <td align="left">
+                  <a href="https://www.cea.com.br/" target="_blank">
+                    <img src="https://images.cea-ecommerce.com.br/email/2023/01_janeiro/20230130/logo_cea_v1.png" width="100%" style="width:100%; max-width:106px; display:block; padding: 0 0 16px 0;" border="0" alt=""/>
+                  </a>
+                </td>
+              </tr>
+              </table>
+            </td>
+              <td width="1%" style="width: 1%;">
+              <!--  -->
+            </td>
+            <td align="left" width="19.25%" style="width: 19.25%;">
+              <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%; max-width: 92px;">
+                <tr>
+                  <td style="padding: 0 0 5px 0;">
+                    <a href="https://www.cea.com.br/moda-feminina/colecoes/novidades" target="_blank">
+                      <img src="https://images.cea-ecommerce.com.br/email/2023/01_janeiro/20230130/feminino_v2.png" width="100%" style="width:100%; max-width: 92px; display:block;" border="0" alt="Feminino"/>
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top">
+                    <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 13px; color:#1D1E2C;">
+                      feminino
+                    </font>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td width="1%" style="width: 1%;">
+              <!--  -->
+            </td>
+            <td align="center" width="19.25%" style="width: 19.25%;">
+              <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%; max-width: 92px;">
+                <tr>
+                  <td style="padding: 0 0 5px 0;">
+                    <a href="https://www.cea.com.br/moda-masculina/novidades" target="_blank">
+                      <img src="https://images.cea-ecommerce.com.br/email/2023/01_janeiro/20230130/masculino_v2.png" width="100%" style="width:100%; max-width: 92px; display:block;" border="0" alt="masculino"/>
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top">
+                    <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 13px; color:#1D1E2C;">
+                      masculino
+                    </font>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td width="1%" style="width: 1%;">
+              <!--  -->
+            </td>
+            <td align="right" width="19.25%" style="width: 19.25%;">
+              <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%; max-width: 92px;">
+                <tr>
+                  <td style="padding: 0 0 5px 0;">
+                    <a href="https://www.cea.com.br/moda-infantil/colecoes/geral?order=OrderByReleaseDateDESC" target="_blank">
+                      <img src="https://images.cea-ecommerce.com.br/email/2023/01_janeiro/20230130/infantil_v2.png" width="100%" style="width:100%; max-width: 92px; display:block;" border="0" alt="infantil"/>
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top">
+                    <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 13px; color:#1D1E2C;">
+                      infantil
+                    </font>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td width="1%" style="width: 1%;">
+              <!--  -->
+            </td>
+            <td align="right" width="19.25%" style="width: 19.25%;">
+              <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%; max-width: 92px;">
+                <tr>
+                  <td style="padding: 0 0 5px 0;">
+                    <a href="https://www.cea.com.br/calcados?order=OrderByReleaseDateDESC" target="_blank">
+                      <img src="https://images.cea-ecommerce.com.br/email/2023/01_janeiro/20230130/calcados_v2.png" width="100%" style="width:100%; max-width: 92px; display:block;" border="0" alt="calçados"/>
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top">
+                    <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 13px; color:#1D1E2C;">
+                      calçados
+                    </font>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <!-- HEADER -->
 
     <!-- CORPO DO EMAIL -->
     <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
-    <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px" bgcolor="#fd6702">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px" bgcolor="#ffffff">
       <tr>
-        <td align="center" valign="top" bgcolor="#fd6702">
-          <a href="https://www.cea.com.br/moda-feminina/tons-terrosos" target="_blank">
-            <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/09032023/20230309_feminino_01.jpg" width="100%" style="width:100%; max-width:100%; display: block;" border="0" alt="" />
+        <td align="center" valign="top">
+          <a href="https://www.cea.com.br/busca?fq=H:16735&fq=specificationFilter_203:Plus%20Size" target="_blank">
+            <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/10032023/20230310_extra_01.jpg" width="100%" style="width:100%; max-width: 100%; display: block;" border="0" alt="" />
           </a>
         </td>
       </tr>
       <tr>
-        <td align="center" valign="top" style="padding: 20px 18px 20px 18px" bgcolor="#fd6702">
-          <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
-          <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px" bgcolor="#fd6702">
-            <tr>
-              <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 18px; color: #ffffff; text-align: center; line-height: 1.2;">
-                Está chegando a hora de se despedir do verão. O outono pede passagem não só na natureza, mas também em nosso guarda-roupa. E, mais uma vez, os tons terrosos surgem como uma ótima opção para construir looks autênticos.
-              </td>
-            </tr>
-          </table>
-          <!--[if mso]></td></tr></table><![endif]-->
-        </td>
-      </tr> 
+				<td bgcolor="#ffffff" align="center" style="padding:60px 10px 30px 10px;">
+					<!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="width: 100%; max-width: 100%;" bgcolor="#ffffff">
+              <tr>
+                <td align="center" valign="top" width="47%" style="width: 47%;">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" width="100%" style="width: 100%; max-width: 281px;">
+                    <tr>
+                      <td align="center" valign="top">
+                        <a href="https://www.cea.com.br/biquini-top-cortininha-plus-size-dupla-face-cosmo-com-protecao-uv50-preto-1041284-preto/p" target="_blank">
+                          <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/10032023/20230310_extra_02.jpg" width="100%" style="width: 100%; max-width:281px; display:block;" border="0" alt="" />
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="padding: 15px 10px 15px 10px;">
+                        <a href="https://www.cea.com.br/biquini-top-cortininha-plus-size-dupla-face-cosmo-com-protecao-uv50-preto-1041284-preto/p" target="_blank" style="text-decoration: none;">
+                          <font face="Century Gothic, sans-serif" style="font-size: 18px; line-height: 1.2; color: #000000; display: block; font-weight: 300;">
+                            <b>
+                              biquíni top cortininha dupla face
+                            </b>
+                          </font>
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td width="2%" style="width: 2%;">
+                  <!--  -->
+                </td>
+                <td align="center" valign="top" width="47%" style="width: 47%;">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" width="100%" style="width: 100%; max-width: 281px;">
+                    <tr>
+                      <td align="center" valign="top">
+                        <a href="https://www.cea.com.br/biquini-calcinha-tanga-string-plus-size-areia-cosmo-com-protecao-uv50-preto-1041285-preto/p" target="_blank">
+                          <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/10032023/20230310_extra_03.jpg" width="100%" style="width: 100%; max-width:281px; display:block;" border="0" alt="" />
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="padding: 15px 10px 15px 10px;">
+                        <a href="https://www.cea.com.br/biquini-calcinha-tanga-string-plus-size-areia-cosmo-com-protecao-uv50-preto-1041285-preto/p" target="_blank" style="text-decoration: none;">
+                          <font face="Century Gothic, sans-serif" style="font-size: 18px; line-height: 1.2; color: #000000; display: block; font-weight: 300;">
+                            <b>
+                              biquíni calcinha tanga string
+                            </b>
+                          </font>
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <!--[if mso]></td></tr></table><![endif]-->
+				</td>
+			</tr>
       <tr>
-        <td align="center" valign="top" bgcolor="#fd6702">
-          <a href="https://www.cea.com.br/moda-feminina/tons-terrosos" target="_blank">
-            <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/09032023/20230309_feminino_02.jpg" width="100%" style="width:100%; max-width:100%; display: block;" border="0" alt="" />
-          </a>
-        </td>
-      </tr>
+				<td bgcolor="#ffffff" align="center" style="padding: 0 10px 30px 10px;">
+					<!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="width: 100%; max-width: 100%;" bgcolor="#ffffff">
+              <tr>
+                <td align="center" valign="top" width="47%" style="width: 47%;">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" width="100%" style="width: 100%; max-width: 281px;">
+                    <tr>
+                      <td align="center" valign="top">
+                        <a href="https://www.cea.com.br/short-ciclista-plus-size-areia-cosmo-preto-1041286-preto/p" target="_blank">
+                          <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/10032023/20230310_extra_04.jpg" width="100%" style="width: 100%; max-width:281px; display:block;" border="0" alt="" />
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="padding: 15px 10px 15px 10px;">
+                        <a href="https://www.cea.com.br/short-ciclista-plus-size-areia-cosmo-preto-1041286-preto/p" target="_blank" style="text-decoration: none;">
+                          <font face="Century Gothic, sans-serif" style="font-size: 18px; line-height: 1.2; color: #000000; display: block; font-weight: 300;">
+                            <b>
+                              short ciclista
+                            </b>
+                          </font>
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td width="2%" style="width: 2%;">
+                  <!--  -->
+                </td>
+                <td align="center" valign="top" width="47%" style="width: 47%;">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" width="100%" style="width: 100%; max-width: 281px;">
+                    <tr>
+                      <td align="center" valign="top">
+                        <a href="https://www.cea.com.br/maio-plus-size-decote-redondo-com-strass-cosmo-protecao-uv50-preto-1041347-preto/p" target="_blank">
+                          <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/10032023/20230310_extra_05.jpg" width="100%" style="width: 100%; max-width:281px; display:block;" border="0" alt="" />
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="padding: 15px 10px 15px 10px;">
+                        <a href="https://www.cea.com.br/maio-plus-size-decote-redondo-com-strass-cosmo-protecao-uv50-preto-1041347-preto/p" target="_blank" style="text-decoration: none;">
+                          <font face="Century Gothic, sans-serif" style="font-size: 18px; line-height: 1.2; color: #000000; display: block; font-weight: 300;">
+                            <b>
+                              maiô com strass proteção uv50
+                            </b>
+                          </font>
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <!--[if mso]></td></tr></table><![endif]-->
+				</td>
+			</tr>
       <tr>
-        <td align="center" valign="top" style="padding: 20px 18px 0 18px" bgcolor="#fd6702">
-          <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
-          <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px" bgcolor="#fd6702">
-            <tr>
-              <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 18px; color: #ffffff; text-align: center; line-height: 1.2;">
-                Mas, nesta temporada, algumas cores vibrantes acompanham a paleta outonal. O verde e o roxo, por exemplo, trazem calma, tranquilidade e aquele energia alto astral para as produções.
-              </td>
-            </tr>
-          </table>
-          <!--[if mso]></td></tr></table><![endif]-->
-        </td>
-      </tr> 
+				<td bgcolor="#ffffff" align="center" style="padding: 0 10px 30px 10px;">
+					<!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="width: 100%; max-width: 100%;" bgcolor="#ffffff">
+              <tr>
+                <td align="center" valign="top" width="47%" style="width: 47%;">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" width="100%" style="width: 100%; max-width: 281px;">
+                    <tr>
+                      <td align="center" valign="top">
+                        <a href="https://www.cea.com.br/blusa-plus-size-de-tule-cropped-orla-cosmo-laranja-1042120-laranja/p" target="_blank">
+                          <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/10032023/20230310_extra_06.jpg" width="100%" style="width: 100%; max-width:281px; display:block;" border="0" alt="" />
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="padding: 15px 10px 15px 10px;">
+                        <a href="https://www.cea.com.br/blusa-plus-size-de-tule-cropped-orla-cosmo-laranja-1042120-laranja/p" target="_blank" style="text-decoration: none;">
+                          <font face="Century Gothic, sans-serif" style="font-size: 18px; line-height: 1.2; color: #000000; display: block; font-weight: 300;">
+                            <b>
+                              blusa de tule cropped
+                            </b>
+                          </font>
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td width="2%" style="width: 2%;">
+                  <!--  -->
+                </td>
+                <td align="center" valign="top" width="47%" style="width: 47%;">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" width="100%" style="width: 100%; max-width: 281px;">
+                    <tr>
+                      <td align="center" valign="top">
+                        <a href="https://www.cea.com.br/calca-plus-size-pantalona-de-tule-cintura-alta-orla-cosmo-laranja-1042121-laranja/p" target="_blank">
+                          <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/10032023/20230310_extra_07.jpg" width="100%" style="width: 100%; max-width:281px; display:block;" border="0" alt="" />
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="padding: 15px 10px 15px 10px;">
+                        <a href="https://www.cea.com.br/calca-plus-size-pantalona-de-tule-cintura-alta-orla-cosmo-laranja-1042121-laranja/p" target="_blank" style="text-decoration: none;">
+                          <font face="Century Gothic, sans-serif" style="font-size: 18px; line-height: 1.2; color: #000000; display: block; font-weight: 300;">
+                            <b>
+                              calça pantalona de tule cintura alta
+                            </b>
+                          </font>
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <!--[if mso]></td></tr></table><![endif]-->
+				</td>
+			</tr>
       <tr>
-        <td align="center" valign="top" bgcolor="#fd6702">
-          <a href="https://www.cea.com.br/moda-feminina/tons-terrosos" target="_blank">
-            <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/09032023/20230309_feminino_06.jpg" width="100%" style="width:100%; max-width:100%; display: block;" border="0" alt="" />
-          </a>
-        </td>
-      </tr>
+				<td bgcolor="#ffffff" align="center" style="padding: 0 10px 30px 10px;">
+					<!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="width: 100%; max-width: 100%;" bgcolor="#ffffff">
+              <tr>
+                <td align="center" valign="top" width="47%" style="width: 47%;">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" width="100%" style="width: 100%; max-width: 281px;">
+                    <tr>
+                      <td align="center" valign="top">
+                        <a href="https://www.cea.com.br/biquini-top-plus-size-franzido-mar-com-bojo-removivel-cosmo-com-protecao-uv50-azul-1041321-azul/p" target="_blank">
+                          <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/10032023/20230310_extra_08.jpg" width="100%" style="width: 100%; max-width:281px; display:block;" border="0" alt="" />
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="padding: 15px 10px 15px 10px;">
+                        <a href="https://www.cea.com.br/biquini-top-plus-size-franzido-mar-com-bojo-removivel-cosmo-com-protecao-uv50-azul-1041321-azul/p" target="_blank" style="text-decoration: none;">
+                          <font face="Century Gothic, sans-serif" style="font-size: 18px; line-height: 1.2; color: #000000; display: block; font-weight: 300;">
+                            <b>
+                              biquíni top franzido com bojo
+                            </b>
+                          </font>
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td width="2%" style="width: 2%;">
+                  <!--  -->
+                </td>
+                <td align="center" valign="top" width="47%" style="width: 47%;">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" width="100%" style="width: 100%; max-width: 281px;">
+                    <tr>
+                      <td align="center" valign="top">
+                        <a href="https://www.cea.com.br/biquini-calcinha-tanga-plus-size-string-mar-cosmo-com-protecao-uv50-azul-1041322-azul/p" target="_blank">
+                          <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/10032023/20230310_extra_09.jpg" width="100%" style="width: 100%; max-width:281px; display:block;" border="0" alt="" />
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="padding: 15px 10px 15px 10px;">
+                        <a href="https://www.cea.com.br/biquini-calcinha-tanga-plus-size-string-mar-cosmo-com-protecao-uv50-azul-1041322-azul/p" target="_blank" style="text-decoration: none;">
+                          <font face="Century Gothic, sans-serif" style="font-size: 18px; line-height: 1.2; color: #000000; display: block; font-weight: 300;">
+                            <b>
+                              biquíni calcinha tanga string
+                            </b>
+                          </font>
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <!--[if mso]></td></tr></table><![endif]-->
+				</td>
+			</tr>
       <tr>
-        <td align="center" valign="top" bgcolor="#fd6702">
-          <a href="https://www.cea.com.br/moda-feminina/tons-terrosos" target="_blank">
-            <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/09032023/20230309_feminino_03.jpg" width="100%" style="width:100%; max-width:100%; display: block;" border="0" alt="" />
-          </a>
-        </td>
-      </tr>
+				<td bgcolor="#ffffff" align="center" style="padding: 0 10px 30px 10px;">
+					<!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="width: 100%; max-width: 100%;" bgcolor="#ffffff">
+              <tr>
+                <td align="center" valign="top" width="47%" style="width: 47%;">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" width="100%" style="width: 100%; max-width: 281px;">
+                    <tr>
+                      <td align="center" valign="top">
+                        <a href="https://www.cea.com.br/camiseta-plus-size-de-algodao-oversized-manga-curta-cosmo-roxo-1041954-roxo/p" target="_blank">
+                          <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/10032023/20230310_extra_10.jpg" width="100%" style="width: 100%; max-width:281px; display:block;" border="0" alt="" />
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="padding: 15px 10px 15px 10px;">
+                        <a href="https://www.cea.com.br/camiseta-plus-size-de-algodao-oversized-manga-curta-cosmo-roxo-1041954-roxo/p" target="_blank" style="text-decoration: none;">
+                          <font face="Century Gothic, sans-serif" style="font-size: 18px; line-height: 1.2; color: #000000; display: block; font-weight: 300;">
+                            <b>
+                              camiseta de algodão oversized
+                            </b>
+                          </font>
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td width="2%" style="width: 2%;">
+                  <!--  -->
+                </td>
+                <td align="center" valign="top" width="47%" style="width: 47%;">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" width="100%" style="width: 100%; max-width: 281px;">
+                    <tr>
+                      <td align="center" valign="top">
+                        <a href="https://www.cea.com.br/calca-plus-size-de-sarja-cintura-super-alta-orla-cosmo-laranja-1040416-laranja/p" target="_blank">
+                          <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/10032023/20230310_extra_11.jpg" width="100%" style="width: 100%; max-width:281px; display:block;" border="0" alt="" />
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="padding: 15px 10px 15px 10px;">
+                        <a href="https://www.cea.com.br/calca-plus-size-de-sarja-cintura-super-alta-orla-cosmo-laranja-1040416-laranja/p" target="_blank" style="text-decoration: none;">
+                          <font face="Century Gothic, sans-serif" style="font-size: 18px; line-height: 1.2; color: #000000; display: block; font-weight: 300;">
+                            <b>
+                              calça de sarja cintura super alta
+                            </b>
+                          </font>
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <!--[if mso]></td></tr></table><![endif]-->
+				</td>
+			</tr>
       <tr>
-        <td align="center" valign="top" style="padding: 0 18px 0 18px" bgcolor="#fd6702">
-          <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
-          <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px" bgcolor="#fd6702">
-            <tr>
-              <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 18px; color: #ffffff; text-align: center; line-height: 1.2; padding: 0 0 20px 0;">
-                Além das cores de outono, outra dica quente para a estação é abusar de estampas, tecidos e recortes – as combinações podem misturar diferentes texturas, como no combo tricot + alfaiataria. Seja qual foi a sua escolha, não se esqueça: a alegria despretensiosa da temporada está nos detalhes.
-              </td>
-            </tr>
-          </table>
-          <!--[if mso]></td></tr></table><![endif]-->
-        </td>
-      </tr> 
-      <tr>
-        <td align="center" valign="top" bgcolor="#fd6702">
-          <a href="https://www.cea.com.br/moda-feminina/tons-terrosos" target="_blank">
-            <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/09032023/20230309_feminino_07.jpg" width="100%" style="width:100%; max-width:100%; display: block;" border="0" alt="" />
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td align="center" valign="top" bgcolor="#fd6702">
-          <a href="https://www.cea.com.br/moda-feminina/tons-terrosos" target="_blank">
-            <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/09032023/20230309_feminino_04.jpg" width="100%" style="width:100%; max-width:100%; display: block;" border="0" alt="" />
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td align="center" valign="top" bgcolor="#fa5903">
-          <a href="https://www.cea.com.br/moda-feminina/calcados/botas" target="_blank">
-            <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/09032023/20230309_feminino_05.jpg" width="100%" style="width:100%; max-width:100%; display: block;" border="0" alt="" />
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td align="center" valign="top" style="padding: 0 18px 0 18px" bgcolor="#fa5903">
-          <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
-          <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px" bgcolor="#fa5903">
-            <tr>
-              <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 18px; color: #ffffff; text-align: center; line-height: 1.2; padding: 0 0 20px 0;">
-                Aposte nas botas como o calçado versátil que a estação pede. De cano baixo ou cano alto, elas transitam bem entre todas as ocasiões, seja nos corres do dia a dia, em um evento noturno ou os grandes festivais. O estilo cowboy, as de solado tratorado tratoradas e as com plataformas são algumas que estão em alta e brilham.
-              </td>
-            </tr>
-          </table>
-          <!--[if mso]></td></tr></table><![endif]-->
-        </td>
-      </tr> 
-      <tr>
-        <td align="center" valign="top" bgcolor="#fd6702">
-          <a href="https://www.cea.com.br/moda-feminina/calcados/botas" target="_blank">
-            <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/09032023/20230309_feminino_08.jpg" width="100%" style="width:100%; max-width:100%; display: block;" border="0" alt="" />
-          </a>
-        </td>
-      </tr>
+				<td bgcolor="#ffffff" align="center" style="padding: 0 10px 30px 10px;">
+					<!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="width: 100%; max-width: 100%;" bgcolor="#ffffff">
+              <tr>
+                <td align="center" valign="top" width="47%" style="width: 47%;">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" width="100%" style="width: 100%; max-width: 281px;">
+                    <tr>
+                      <td align="center" valign="top">
+                        <a href="https://www.cea.com.br/biquini-top-regata-plus-size-com-bojo-removivel-cosmo-com-protecao-uv50-azul-1041323-azul/p" target="_blank">
+                          <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/10032023/20230310_extra_12.jpg" width="100%" style="width: 100%; max-width:281px; display:block;" border="0" alt="" />
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="padding: 15px 10px 15px 10px;">
+                        <a href="https://www.cea.com.br/biquini-top-regata-plus-size-com-bojo-removivel-cosmo-com-protecao-uv50-azul-1041323-azul/p" target="_blank" style="text-decoration: none;">
+                          <font face="Century Gothic, sans-serif" style="font-size: 18px; line-height: 1.2; color: #000000; display: block; font-weight: 300;">
+                            <b>
+                              biquíni top regata com bojo removível
+                            </b>
+                          </font>
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td width="2%" style="width: 2%;">
+                  <!--  -->
+                </td>
+                <td align="center" valign="top" width="47%" style="width: 47%;">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" width="100%" style="width: 100%; max-width: 281px;">
+                    <tr>
+                      <td align="center" valign="top">
+                        <a href="https://www.cea.com.br/biquini-calcinha-plus-size-hot-pants-cosmo-com-protecao-uv50-azul-1041324-azul/p" target="_blank">
+                          <img src="https://images.cea-ecommerce.com.br/email/2023/03_marco/10032023/20230310_extra_13.jpg" width="100%" style="width: 100%; max-width:281px; display:block;" border="0" alt="" />
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="padding: 15px 10px 15px 10px;">
+                        <a href="https://www.cea.com.br/biquini-calcinha-plus-size-hot-pants-cosmo-com-protecao-uv50-azul-1041324-azul/p" target="_blank" style="text-decoration: none;">
+                          <font face="Century Gothic, sans-serif" style="font-size: 18px; line-height: 1.2; color: #000000; display: block; font-weight: 300;">
+                            <b>
+                              biquíni calcinha hot pants
+                            </b>
+                          </font>
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <!--[if mso]></td></tr></table><![endif]-->
+				</td>
+			</tr>
     </table>
     <!--[if mso]></td></tr></table><![endif]-->
     <!-- CORPO DO EMAIL -->
-    
 
 
     <!-- FOOTER -->
