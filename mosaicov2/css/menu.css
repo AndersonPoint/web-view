@@ -3,16 +3,18 @@
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-	background-color: #fff;
+	background-color: #ffffff47;
+	border: 2px outset #838383;
 	display: flex;
 	justify-content: right;
 	align-items: center;
 	width: 98%;
 	height: 100px;
-	top: 68px;
+	top: 30px;
 	z-index: 9999;
 	text-transform: uppercase;
 	border-radius: 10px;
+	transition: 0.2s;
 }
 
 .logo {
@@ -39,7 +41,7 @@
 }
 
 .menu ul li a {
-  color: #242944;
+  color: #ffffff;
   margin: 0px 15px;
   transition: color 0.3s;
   position: relative;

@@ -1,48 +1,36 @@
 let headerContainer = document.querySelector("#header")
-let indexHtml = location.href
-let windowWidth = window.innerWidth
-const regex = RegExp('index.html')
+let headerMenuItens = document.querySelectorAll('.menu > ul > li > a')
 
 
-const regexHtml = /\/([a-zA-Z]{1,})(?:\.html)?$/
+
+window.addEventListener("scroll", onScrollIndexDesktop)
 
 
-if (windowWidth > 1023) {
-  resizeDesktop()
-  window.addEventListener("resize", resizeMobile)
-} else {
-  resizeMobile()
-  window.addEventListener("resize", resizeMobile)
-}
-
-function resizeDesktop() {
-  if (!regexHtml.exec(indexHtml)) {
-    headerContainer.style.top = "30px"
-    window.addEventListener("scroll", onScrollIndexDesktop)
-
-  } else {
-    headerContainer.style.top = "30px"
-    window.addEventListener("scroll", onScrollOthersDesktop)
-  }
-}
 
 function onScrollIndexDesktop() {
-  if (window.scrollY > 31) {
+  if (window.scrollY > 0) {
     headerContainer.classList.add("header-fixed")
     headerContainer.style.top = "0px"
+    headerContainer.style.backgroundColor = "#ffffff"
+    headerContainer.style.border = "none"
+    setColorMenu('#242944')
+    
+    
+    
   } else {
     headerContainer.classList.remove("header-fixed")
     headerContainer.style.top = "30px"
+    headerContainer.style.backgroundColor = "#ffffff47"
+    headerContainer.style.border = "2px outset #838383;"
+    setColorMenu('#ffffff')
   }
 }
 
-function onScrollOthersDesktop() {
-  if (window.scrollY > 25) {
-    headerContainer.classList.add("header-fixed")
-    headerContainer.style.top = "0px"
-  } else {
-    headerContainer.classList.remove("header-fixed")
-    headerContainer.style.top = "30px"
-  }
+function setColorMenu(color) {
+  headerMenuItens.forEach(i => {
+    i.style.color = color
+  })
+  
 }
+
 
