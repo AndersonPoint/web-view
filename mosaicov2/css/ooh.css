@@ -1,0 +1,49 @@
+.container-title p:first-child {
+  font-size: 100px;
+  color: #68aabb;
+  text-transform: uppercase;
+}
+
+.border-bottom-h1 {
+  position: absolute;
+  top: 158px;
+  transform: translateX(3%);
+
+}
+
+.videosA,
+.videosB,
+.videosC,
+.videosD {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.videoA,
+.videoB,
+.videoC,
+.videoD {
+  padding: 20px;
+}
+
+.videosA,
+.videosB,
+.videosC,
+.videosD {
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  border-bottom: 6px ridge #68aabb;
+  padding: 100px 0px;
+}
+
+.videosA {
+  padding-top: 0px;
+}
+
+.videosD {
+  border-bottom: 0px
+
+}
