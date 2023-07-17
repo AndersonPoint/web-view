@@ -1,5 +1,6 @@
 p {
-  letter-spacing: 0.3em;
+  letter-spacing: 0.2em;
+  line-height: 1;
   padding: .25em 0 .325em;
   text-shadow: 0 0 100px rgba(255, 255, 255, 1);
   background: url(../images/animated-text-fill.png) repeat-y;
