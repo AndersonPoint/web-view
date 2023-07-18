@@ -26,11 +26,7 @@
     .inlineblock>tbody>tr>td {display: block;width: 100%}
 
     @media only screen and (max-width: 599px) {
-      .tableBlock {width: 100% !important;}
       .nav4 {display: none !important;}
-      h1 {font-size: 22px !important; line-height: normal !important;}
-      h2 {font-size: 20px !important; line-height: normal !important;}
-      h3 {font-size: 18px !important; line-height: normal !important;}
     }
   </style>
 
@@ -39,180 +35,155 @@
 <body>
   <div style="margin: 0; padding: 0; width: 100%;height: 100%;" bgcolor="#FFFFFF">
 
-    <!-- HEADER -->
-    <table align="center" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 600px;">
-      <tr>
-        <td align="center" style="padding: 10px 0 10px 0;">
-          <table width="90%" cellpadding="0" cellspacing="0" border="0" style="width: 90%; max-width: 520px;">
-            <tr>
-              <td align="right">
-                <table cellpadding="0" cellspacing="0" border="0">
-                  <tr>
-                    <td>
-                      <font face="arial, sans-serif" style="display: block; font-size:13px; color:#C5C5C5; text-align:left;">
-                        <a href="${form(campaign.name, {'usedb', true})}" target="_blank" style="color: #C5C5C5; text-decoration: underline;">
-                          ver online
-                        </a>
-                      </font>
-                    </td>
-                    <td>
-                      <font face="arial, sans-serif" style="display: block; font-size:13px; color:#C5C5C5; text-align:left;">
-                        &nbsp;&nbsp;|&nbsp;&nbsp;
-                      </font>
-                    </td>
-                    <td>
-                      <font face="arial, sans-serif" style="display: block; font-size:13px; color:#C5C5C5; text-align:left;">
-                        <a href="${form('Form_OptOut', 'CONTACTS_LIST.EMAIL_ADDRESS_')}" target="_blank" style="color: #C5C5C5; text-decoration: underline;">
-                          descadastre-se
-                        </a>
-                      </font>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-      <tr>
-        <td align="center" style="padding: 0 0 20px 0;">
-          <table width="95%" cellpadding="0" cellspacing="0" border="0" style="width: 95%; max-width: 600px;">
-            <tr>
-              <td align="left" width="19%" style="width: 19%;" valign="middle">
-                <table cellpadding="0" cellspacing="0" border="0" width="82%" style="width: 82%; max-width: 106px;">
+   <!-- HEADER -->
+   <table align="center" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 600px;">
+    <tr>
+      <td align="center" style="padding: 10px 0 10px 0;">
+        <table width="85%" cellpadding="0" cellspacing="0" border="0" style="width: 85%;">
+          <tr>
+            <td align="right">
+              <table cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td>
+                    <font face="arial, sans-serif" style="display: block; font-size:13px; color:#C5C5C5; text-align:left;">
+                      <a href="${form(campaign.name, {'usedb', true})}" target="_blank" style="color: #C5C5C5; text-decoration: underline;">
+                        ver online
+                      </a>
+                    </font>
+                  </td>
+                  <td>
+                    <font face="arial, sans-serif" style="display: block; font-size:13px; color:#C5C5C5; text-align:left;">
+                      &nbsp;|&nbsp;
+                    </font>
+                  </td>
+                  <td>
+                    <font face="arial, sans-serif" style="display: block; font-size:13px; color:#C5C5C5; text-align:left;">
+                      <a href="${form('Form_OptOut', 'CONTACTS_LIST.EMAIL_ADDRESS_')}" target="_blank" style="color: #C5C5C5; text-decoration: underline;">
+                        descadastre-se
+                      </a>
+                    </font>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding: 0 0 20px 0;">
+        <table width="90%" cellpadding="0" cellspacing="0" border="0" style="width: 90%; max-width: 600px;">
+          <tr>
+            <td align="left" width="19%" style="width: 19%;" valign="top">
+              <table cellpadding="0" cellspacing="0" border="0" width="90%" style="width: 90%; max-width: 89px;">
                 <tr>
                   <td align="left">
                     <a href="https://www.cea.com.br/" target="_blank">
-                      <img src="https://images.cea-ecommerce.com.br/email/2023/01_janeiro/20230130/logo_cea_v1.png" width="100%" style="width:100%; max-width:106px; display:block; padding: 0 0 16px 0;" border="0" alt=""/>
+                      <img src="https://images.cea-ecommerce.com.br/email/2023/01_janeiro/20230130/logo_cea_v3.png" width="100%" style="width:100%; max-width:89px; display:block;" border="0" alt=""/>
                     </a>
                   </td>
                 </tr>
-                </table>
-              </td>
-                <td width="1%" style="width: 1%;">
-                <!--  -->
-              </td>
-              <td align="left" width="19.25%" style="width: 19.25%;">
-                <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%; max-width: 92px;">
-                  <tr>
-                    <td style="padding: 0 0 5px 0;">
-                      <a href="https://www.cea.com.br/moda-feminina/colecoes/novidades" target="_blank">
-                        <img src="https://images.cea-ecommerce.com.br/email/2023/01_janeiro/20230130/feminino_v2.png" width="100%" style="width:100%; max-width: 92px; display:block;" border="0" alt="Feminino"/>
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top">
-                      <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 13px; color:#1D1E2C;">
-                        feminino
-                      </font>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-              <td width="1%" style="width: 1%;">
-                <!--  -->
-              </td>
-              <td align="center" width="19.25%" style="width: 19.25%;">
-                <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%; max-width: 92px;">
-                  <tr>
-                    <td style="padding: 0 0 5px 0;">
-                      <a href="https://www.cea.com.br/moda-masculina/novidades" target="_blank">
-                        <img src="https://images.cea-ecommerce.com.br/email/2023/01_janeiro/20230130/masculino_v2.png" width="100%" style="width:100%; max-width: 92px; display:block;" border="0" alt="masculino"/>
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top">
-                      <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 13px; color:#1D1E2C;">
-                        masculino
-                      </font>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-              <td width="1%" style="width: 1%;">
-                <!--  -->
-              </td>
-              <td align="right" width="19.25%" style="width: 19.25%;">
-                <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%; max-width: 92px;">
-                  <tr>
-                    <td style="padding: 0 0 5px 0;">
-                      <a href="https://www.cea.com.br/moda-infantil/colecoes/geral?order=OrderByReleaseDateDESC" target="_blank">
-                        <img src="https://images.cea-ecommerce.com.br/email/2023/01_janeiro/20230130/infantil_v2.png" width="100%" style="width:100%; max-width: 92px; display:block;" border="0" alt="infantil"/>
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top">
-                      <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 13px; color:#1D1E2C;">
-                        infantil
-                      </font>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-              <td width="1%" style="width: 1%;">
-                <!--  -->
-              </td>
-              <td align="right" width="19.25%" style="width: 19.25%;">
-                <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%; max-width: 92px;">
-                  <tr>
-                    <td style="padding: 0 0 5px 0;">
-                      <a href="https://www.cea.com.br/calcados?order=OrderByReleaseDateDESC" target="_blank">
-                        <img src="https://images.cea-ecommerce.com.br/email/2023/01_janeiro/20230130/calcados_v2.png" width="100%" style="width:100%; max-width: 92px; display:block;" border="0" alt="calçados"/>
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top">
-                      <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 13px; color:#1D1E2C;">
-                        calçados
-                      </font>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-    <!-- HEADER -->
+              </table>
+            </td>
+            <td align="center">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width: 100%;">
+                <tr>
+                  <td align="center" style="border-right: 2px solid #f2f2f2;">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%;">
+                      <tr>
+                        <td align="center" valign="top">
+                          <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 12px; color:#304094; font-weight: bold;">
+                            <a href="https://www.cea.com.br/moda-feminina/colecoes/novidades" target="_blank" style="text-decoration: none; color: #304094;">
+                              feminino
+                            </a>
+                          </font>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td align="center" style="border-right: 2px solid #f2f2f2;">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%;">
+                      <tr>
+                        <td align="center" valign="top">
+                          <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 12px; color:#304094; font-weight: bold;">
+                            <a href="https://www.cea.com.br/moda-masculina/novidades" target="_blank" style="text-decoration: none; color: #304094;">
+                              masculino
+                            </a>
+                          </font>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td align="center" style="border-right: 2px solid #f2f2f2;">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%;">
+                      <tr>
+                        <td align="center" valign="top">
+                          <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 12px; color:#304094; font-weight: bold;">
+                            <a href="https://www.cea.com.br/moda-infantil/colecoes/geral?order=OrderByReleaseDateDESC" target="_blank" style="text-decoration: none; color: #304094;">
+                              infantil
+                            </a>
+                          </font>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td align="center">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%;">
+                      <tr>
+                        <td align="center" valign="top">
+                          <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 12px; color:#304094; font-weight: bold;">
+                            <a href="https://www.cea.com.br/calcados?order=OrderByReleaseDateDESC" target="_blank" style="text-decoration: none; color: #304094;">
+                              calçados
+                            </a>
+                          </font>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <!-- HEADER -->
 
-   
     <!-- CORPO DO EMAIL -->
     <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
-    <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px" bgcolor="#0d637e">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px" bgcolor="#ffffff">
       <tr>
-        <td align="center" valign="top" bgcolor="#0d637e" style="padding: 60px 0 40px 0;">
+        <td align="center" valign="top" bgcolor="#e9e9e9">
+          <a href="https://www.cea.com.br/ofertas/40-off-acima-de-399" target="_blank">
+            <img src="./images/19072023_misto_01.jpg" width="100%" style="width:100%; max-width: 100%; display: block;" border="0" alt="" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" valign="top" style="padding: 30px 10px 60px 10px;" bgcolor="#e9e9e9">
           <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
-          <table width="90%" cellpadding="0" cellspacing="0" border="0" align="center" style="width: 90%; max-width: 500px;" bgcolor="#0d637e">
+          <table width="90%" cellpadding="0" cellspacing="0" border="0" align="center" style="width: 90%; max-width:90%" bgcolor="#e9e9e9">
             <tr>
-              <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 23px; color: #ffffff; text-align: center; line-height: 1.2;">
-                O <b>Dia dos Pais</b> está chegando e sabemos que, para algumas pessoas, a data traz muitas memórias e isso pode ser delicado. Por isso, escolhemos te avisar com antecedência para não causar nenhum desconforto.
+              <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 24px; color: #000000; text-align: center; line-height: 1.2;">
+                Use o cupom
               </td>
             </tr>
             <tr>
-              <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 23px; color: #ffffff; text-align: center; line-height: 1.2; padding: 30px 0 0 0;">
-                Caso não queira receber nossos e-mails e comunicações via app C&A sobre o tema, não se preocupe: é só clicar no botão abaixo.
+              <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 35px; color: #000000; text-align: center; line-height: 1.2;">
+                <b>MEUINVERNO</b>
               </td>
             </tr>
             <tr>
-              <td align="center" valign="top" bgcolor="#0d637e" style="padding: 60px 0 60px 0;">
-                <a href="#" target="_blank">
-                  <img src="https://images.cea-ecommerce.com.br/email/2023/07_julho/17072023/17072023_extra_02.png" width="90%" style="width: 90%; max-width: 352px; display: block;" border="0" alt="" />
+              <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 17px; color: #000000; text-align: center; line-height: 1.2; padding: 20px 0 40px 0;">
+                E aproveite para garantir as suas compras da temporada com até 40% de desconto. E tem mais: baixe o app C&A para ter acesso a outras ofertas exclusivas!
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="top">
+                <a href="https://www.cea.com.br/ofertas/40-off-acima-de-399" target="_blank">
+                  <img src="./images/19072023_misto_02.png" width="207" style="width: 207px; display: block;" border="0" alt="" />
                 </a>
-              </td>
-            </tr>
-            <tr>
-              <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 23px; color: #ffffff; text-align: center; line-height: 1.2;">
-                <b>E não se preocupe, você continuará recebendo os nossos demais e-mails!</b>
-              </td>
-            </tr>
-            <tr>
-              <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 34px; color: #ffffff; text-align: center; line-height: 1.2; padding: 30px 0 0 0;">
-                Um grande abraço
               </td>
             </tr>
           </table>
@@ -220,8 +191,157 @@
         </td>
       </tr>
       <tr>
-        <td align="center" valign="top" bgcolor="#0d637e" style="padding: 40px 0 60px 0;">
-          <img src="https://images.cea-ecommerce.com.br/email/2023/07_julho/17072023/17072023_extra.png" width="70%" style="width: 70%; max-width: 387px; display: block;" border="0" alt="" />
+        <td align="center" bgcolor="#ffffff" style="padding: 30px 0 30px 0;">
+           <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
+          <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 100%; max-width: 100%;">
+            <tr>
+              <td width="49%" align="left" valign="top">
+               <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%; max-width: 284px;">
+                <tr>
+                  <td align="left" valign="top">
+                    <a href="https://www.cea.com.br/busca?fq=H:18008,specificationFilter_9:Moletom&filters=%5B%5D&pageNumber=1&O=OrderByScoreDESC" target="_blank">
+                      <img src="./images/19072023_misto_03.jpg" border="0" style="display: block; width: 100%; max-width: 284px;" width="284" alt="">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width: 284px; vertical-align: top; display: inline-table;">
+                      <tr>
+                        <td align="center" style="padding: 15px 10px 0 10px;">
+                          <font face="Century Gothic, sans-serif" style="font-size: 18px; line-height: 1.2; color: #000000; display: block; font-weight: 300;">
+                            <a href="https://www.cea.com.br/busca?fq=H:18008,specificationFilter_9:Moletom&filters=%5B%5D&pageNumber=1&O=OrderByScoreDESC" target="_blank" style="color: #000000; text-decoration: none;">aproveite!</a>
+                          </font>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+               </table>
+              </td>
+              <td width="2%" style="width: 2%;">
+                <!-- -->
+              </td>
+              <td width="49%" align="right" valign="top">
+               <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%; max-width: 284px;">
+                <tr>
+                  <td align="right" valign="top">
+                    <a href="https://www.cea.com.br/busca?fq=H:11633&fq=spec_fct_271:Casaco&fq=spec_fct_271:Jaqueta" target="_blank">
+                      <img src="./images/19072023_misto_04.jpg" border="0" style="display: block; width: 100%; max-width: 284px;" width="284" alt="">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width: 284px; vertical-align: top; display: inline-table;">
+                      <tr>
+                        <td align="center" style="padding: 15px 10px 0 10px;">
+                          <font face="Century Gothic, sans-serif" style="font-size: 18px; line-height: 1.2; color: #000000; display: block; font-weight: 300;">
+                            <a href="https://www.cea.com.br/busca?fq=H:11633&fq=spec_fct_271:Casaco&fq=spec_fct_271:Jaqueta" target="_blank" style="color: #000000; text-decoration: none;">compre o seu!</a>
+                          </font>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+               </table>
+              </td>
+            </tr>
+          </table>
+          <!--[if mso]></td></tr></table><![endif]-->
+        </td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#ffffff" style="padding: 0 0 30px 0;">
+           <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
+          <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 100%; max-width: 100%;">
+            <tr>
+              <td width="49%" align="left" valign="top">
+               <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%; max-width: 284px;">
+                <tr>
+                  <td align="left" valign="top">
+                    <a href="https://www.cea.com.br/moda-calcados/moda-feminina/botas" target="_blank">
+                      <img src="./images/19072023_misto_05.jpg" border="0" style="display: block; width: 100%; max-width: 284px;" width="284" alt="">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width: 284px; vertical-align: top; display: inline-table;">
+                      <tr>
+                        <td align="center" style="padding: 15px 10px 0 10px;">
+                          <font face="Century Gothic, sans-serif" style="font-size: 18px; line-height: 1.2; color: #000000; display: block; font-weight: 300;">
+                            <a href="https://www.cea.com.br/moda-calcados/moda-feminina/botas" target="_blank" style="color: #000000; text-decoration: none;">amei!</a>
+                          </font>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+               </table>
+              </td>
+              <td width="2%" style="width: 2%;">
+                <!-- -->
+              </td>
+              <td width="49%" align="right" valign="top">
+               <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%; max-width: 284px;">
+                <tr>
+                  <td align="right" valign="top">
+                    <a href="https://www.cea.com.br/moda-infantil/conjuntos" target="_blank">
+                      <img src="./images/19072023_misto_06.jpg" border="0" style="display: block; width: 100%; max-width: 284px;" width="284" alt="">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width: 284px; vertical-align: top; display: inline-table;">
+                      <tr>
+                        <td align="center" style="padding: 15px 10px 0 10px;">
+                          <font face="Century Gothic, sans-serif" style="font-size: 18px; line-height: 1.2; color: #000000; display: block; font-weight: 300;">
+                            <a href="https://www.cea.com.br/moda-infantil/conjuntos" target="_blank" style="color: #000000; text-decoration: none;">leve agora!</a>
+                          </font>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+               </table>
+              </td>
+            </tr>
+          </table>
+          <!--[if mso]></td></tr></table><![endif]-->
+        </td>
+      </tr>
+      <tr>
+        <td align="center" valign="top" bgcolor="#ffffff">
+          <a href="https://www.cea.com.br/celulares-e-tablets/vitrine/celulares" target="_blank">
+            <img src="./images/19072023_misto_07.jpg" width="100%" style="width:100%; max-width: 600px; display: block;" border="0" alt="" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" valign="top" bgcolor="#e9e9e9" style="padding: 30px 0 40px 0;">
+          <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
+          <table width="90%" cellpadding="0" cellspacing="0" border="0" align="center" style="width: 90%; max-width: 90%;" bgcolor="#e9e9e9">
+            <tr>
+              <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 40px; color: #c2d401; text-align: center; line-height: 1.2;">
+                <b>celulares em até 10x sem juros no c&a pay</b>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 17px; color: #000000; text-align: center; line-height: 1.2; padding: 20px 0 40px 0;">
+                Peça o seu gratuitamente e garanta o smartphone que você sempre sonhou com benefícios exclusivos.
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="top">
+                <a href="https://www.cea.com.br/celulares-e-tablets/vitrine/celulares" target="_blank">
+                  <img src="./images/19072023_misto_08.png" width="207" style="width:207px; display: block;" border="0" alt="" />
+                </a>
+              </td>
+            </tr>
+          </table>
+          <!--[if mso]></td></tr></table><![endif]-->
         </td>
       </tr>
     </table>
