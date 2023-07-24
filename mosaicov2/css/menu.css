@@ -11,7 +11,7 @@
 	width: 98%;
 	height: 100px;
 	top: 30px;
-	z-index: 9999;
+	z-index: 98;
 	text-transform: uppercase;
 	border-radius: 10px;
 	transition: 0.2s;
@@ -46,6 +46,7 @@
   margin: 0px 15px;
   transition: color 0.3s;
   position: relative;
+	font-size: 20px;
 }
 
 .menu ul li a::before {
