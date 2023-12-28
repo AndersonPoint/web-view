@@ -35,198 +35,474 @@
 <body>
   <div style="margin: 0; padding: 0; width: 100%;height: 100%;" bgcolor="#FFFFFF">
 
+   <!-- HEADER -->
+   <table align="center" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 600px;">
+    <tr>
+      <td align="center" style="padding: 10px 0 10px 0;">
+        <table width="85%" cellpadding="0" cellspacing="0" border="0" style="width: 85%;">
+          <tr>
+            <td align="right">
+              <table cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td>
+                    <font face="arial, sans-serif" style="display: block; font-size:13px; color:#C5C5C5; text-align:left;">
+                      <a href="${form(campaign.name, {'usedb', true})}" target="_blank" style="color: #C5C5C5; text-decoration: underline;">
+                        ver online
+                      </a>
+                    </font>
+                  </td>
+                  <td>
+                    <font face="arial, sans-serif" style="display: block; font-size:13px; color:#C5C5C5; text-align:left;">
+                      &nbsp;|&nbsp;
+                    </font>
+                  </td>
+                  <td>
+                    <font face="arial, sans-serif" style="display: block; font-size:13px; color:#C5C5C5; text-align:left;">
+                      <a href="${form('Form_OptOut', 'CONTACTS_LIST.EMAIL_ADDRESS_')}" target="_blank" style="color: #C5C5C5; text-decoration: underline;">
+                        descadastre-se
+                      </a>
+                    </font>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding: 0 0 20px 0;">
+        <table width="90%" cellpadding="0" cellspacing="0" border="0" style="width: 90%; max-width: 600px;">
+          <tr>
+            <td align="left" width="19%" style="width: 19%;" valign="top">
+              <table cellpadding="0" cellspacing="0" border="0" width="90%" style="width: 90%; max-width: 89px;">
+                <tr>
+                  <td align="left">
+                    <a href="https://www.cea.com.br/" target="_blank">
+                      <img src="https://images.cea-ecommerce.com.br/email/2023/01_janeiro/20230130/logo_cea_v3.png" width="100%" style="width:100%; max-width:89px; display:block;" border="0" alt=""/>
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td align="center">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width: 100%;">
+                <tr>
+                  <td align="center" style="border-right: 2px solid #f2f2f2;">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%;">
+                      <tr>
+                        <td align="center" valign="top">
+                          <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 12px; color:#304094; font-weight: bold;">
+                            <a href="https://www.cea.com.br/moda-feminina/colecoes/novidades" target="_blank" style="text-decoration: none; color: #304094;">
+                              feminino
+                            </a>
+                          </font>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td align="center" style="border-right: 2px solid #f2f2f2;">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%;">
+                      <tr>
+                        <td align="center" valign="top">
+                          <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 12px; color:#304094; font-weight: bold;">
+                            <a href="https://www.cea.com.br/moda-masculina/novidades" target="_blank" style="text-decoration: none; color: #304094;">
+                              masculino
+                            </a>
+                          </font>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td align="center" style="border-right: 2px solid #f2f2f2;">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%;">
+                      <tr>
+                        <td align="center" valign="top">
+                          <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 12px; color:#304094; font-weight: bold;">
+                            <a href="https://www.cea.com.br/moda-infantil/colecoes/geral?order=OrderByReleaseDateDESC" target="_blank" style="text-decoration: none; color: #304094;">
+                              infantil
+                            </a>
+                          </font>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td align="center">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%;">
+                      <tr>
+                        <td align="center" valign="top">
+                          <font face="Century Gothic, sans-serif" style="display: block; font-weight: 300; font-size: 12px; color:#304094; font-weight: bold;">
+                            <a href="https://www.cea.com.br/calcados?order=OrderByReleaseDateDESC" target="_blank" style="text-decoration: none; color: #304094;">
+                              cal&ccedil;ados
+                            </a>
+                          </font>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <!-- HEADER -->
+
     <!-- CORPO DO EMAIL -->
     <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px" bgcolor="#0b0606">
-        <tr>
-          <td align="center" valign="top" style="padding: 60px 10px 20px 10px" bgcolor="#0b0606">
-            <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px" bgcolor="#0b0606">
-              <tr>
-                <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 32px; color: #ffffff; text-align: center; line-height: 1.2;">
-                  olá [Nome]!
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]></td></tr></table><![endif]-->
-          </td>
-        </tr>
-        <tr>
-          <td align="center" valign="top" style="padding: 20px 10px 20px 10px" bgcolor="#0b0606">
-            <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px" bgcolor="#0b0606">
-              <tr>
-                <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 32px; color: #ffffff; text-align: center; line-height: 1.2;">
-                  tá sabendo do <b>presentão de</b>
-                  <br>
-                  <b>fim de ano do C&A Pay para você?</b>
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]></td></tr></table><![endif]-->
-          </td>
-        </tr> 
-        <tr>
-          <td align="center" valign="top" bgcolor="#0b0606">
-            <a href="https://cea.go.link/ceapay?adj_t=10g4bem9_10go4uid&adj_campaign=LIMITE-EXTRA-ELETRONICO-LIB-CONFIRA-SEU-LIMITE-15X-COM-ACRESCIMOS-W53-EMM&adj_creative=email&adj_label=https://www.cea.com.br/cea-pay&adj_fallback=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_redirect=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_redirect_macos=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_redirect_ios=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_redirect_android=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_idfa=https://www.cea.com.br/cea-pay&adj_gps_adid=https://www.cea.com.br/cea-pay" target="_blank">
-              <img src="https://images.cea-ecommerce.com.br/email/2023/12_dezembro/27122023/cea_pay_fim_de_ano_limite_extra_celular_01.jpg" width="100%" style="width:100%; max-width: 100%; display: block;" border="0" alt="" />
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td align="center" valign="top" style="padding: 0 18px 0 18px" bgcolor="#0b0606">
-            <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:500px" bgcolor="#0b0606">
-              <tr>
-                <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 35px; color: #ffffff; text-align: center; line-height: 1.2;">
-                  o <span style="display: inline-block; font-weight: bold; color:#ac201a; font-size: 40px;">Limite Extra Celular</span>
-                  veio deixar o seu 2024 ainda mais <span style="display: inline-block; font-weight: bold; color:#ac201a">incrível!</span> confira as vantagens:
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]></td></tr></table><![endif]-->
-          </td>
-        </tr> 
-        <tr>
-          <td align="center" valign="top" bgcolor="#0b0606">
-            <a href="https://cea.go.link/ceapay?adj_t=10g4bem9_10go4uid&adj_campaign=LIMITE-EXTRA-ELETRONICO-LIB-CONFIRA-SEU-LIMITE-15X-COM-ACRESCIMOS-W53-EMM&adj_creative=email&adj_label=https://www.cea.com.br/cea-pay&adj_fallback=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_redirect=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_redirect_macos=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_redirect_ios=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_redirect_android=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_idfa=https://www.cea.com.br/cea-pay&adj_gps_adid=https://www.cea.com.br/cea-pay" target="_blank">
-              <img src="https://images.cea-ecommerce.com.br/email/2023/12_dezembro/27122023/cea_pay_fim_de_ano_limite_extra_celular_2.png" width="90%" style="width:90%; max-width:500px; display: block;" border="0" alt="" />
-            </a>
-          </td>
-        </tr> 
-        <tr>
-          <td align="center" valign="top" style="padding: 0 0 40px 0" bgcolor="#0b0606">
-            <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
-            <table width="90%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:500px" bgcolor="#0b0606">
-              <tr>
-                <td bgcolor="#ba1f19" style="border-radius: 0 0 30px 30px; padding: 20px 10px 20px 10px;">
-                  <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:500px">
-                    <tr>
-                      <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 32px; color: #ffffff; text-align: center; line-height: 1.2;">
-                        seu limite extra celular é de <b>R$xx,xx</b>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]></td></tr></table><![endif]-->
-          </td>
-        </tr>
-        <tr>
-          <td align="center" valign="top" style="padding: 0 18px 0 18px" bgcolor="#0b0606">
-            <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:500px" bgcolor="#0b0606">
-              <tr>
-                <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 40px; color: #ffffff; text-align: center; line-height: 1.2;">
-                  - exclusivo para compras nas lojas físicas C&A.
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]></td></tr></table><![endif]-->
-          </td>
-        </tr> 
-        <tr>
-          <td align="center" valign="top" bgcolor="#0b0606">
-            <a href="https://cea.go.link/ceapay?adj_t=10g4bem9_10go4uid&adj_campaign=LIMITE-EXTRA-ELETRONICO-LIB-CONFIRA-SEU-LIMITE-15X-COM-ACRESCIMOS-W53-EMM&adj_creative=email&adj_label=https://www.cea.com.br/cea-pay&adj_fallback=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_redirect=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_redirect_macos=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_redirect_ios=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_redirect_android=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_idfa=https://www.cea.com.br/cea-pay&adj_gps_adid=https://www.cea.com.br/cea-pay" target="_blank">
-              <img src="https://images.cea-ecommerce.com.br/email/2023/12_dezembro/27122023/cea_pay_fim_de_ano_limite_extra_celular_03.jpg" width="100%" style="width:100%; max-width: 100%; display: block;" border="0" alt="" />
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td align="center" valign="top" style="padding: 0 18px 0 18px" bgcolor="#0b0606">
-            <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:500px" bgcolor="#0b0606">
-              <tr>
-                <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 40px; color: #ac201a; text-align: center; line-height: 1.2;">
-                  <b>parcelas que cabem no seu bolso.</b>
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]></td></tr></table><![endif]-->
-          </td>
-        </tr> 
-        <tr>
-          <td align="center" valign="top" bgcolor="#0b0606">
-            <a href="https://www.cea.com.br/lojas?utm_source=extra-celular&utm_medium=15x-com-acrescimos&utm_campaign=w53&utm_id=email" target="_blank">
-              <img src="https://images.cea-ecommerce.com.br/email/2023/12_dezembro/27122023/cea_pay_fim_de_ano_limite_extra_celular_04.jpg" width="100%" style="width:100%; max-width: 100%; display: block;" border="0" alt="" />
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td align="center" valign="top" style="padding: 0 18px 0 18px" bgcolor="#0b0606">
-            <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:500px" bgcolor="#0b0606">
-              <tr>
-                <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 40px; color: #ffffff; text-align: center; line-height: 1.2;">
-                  <b>última oportunidade para começar o próximo ano com um Samsung novinho!</b>
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]></td></tr></table><![endif]-->
-          </td>
-        </tr> 
-        <tr>
-          <td align="center" valign="top" style="padding: 40px 18px 60px 18px" bgcolor="#0b0606">
-            <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:500px" bgcolor="#0b0606">
-              <tr>
-                <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 35px; color: #ffffff; text-align: center; line-height: 1.2;">
-                  cheque o seu limite e aproveite esses benefícios.
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]></td></tr></table><![endif]-->
-          </td>
-        </tr> 
-        <tr>
-          <td align="center" style="padding: 0 18px 20px 18px" bgcolor="#0b0606">
-            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 483px;">
-              <tr>
-                <td align="center" bgcolor="#c51d18" height="70" style="padding: 0 20px 0 20px; border-radius: 25px 25px 25px 25px; height: 70px;">
-                  <font face="Century Gothic, sans-serif" style="font-size: 22px; font-weight: 300; line-height: 1.2; color:#ffffff; display: block;">
-                    <a href="https://cea.go.link/ceapay?adj_t=10g4bem9_10go4uid&adj_campaign=LIMITE-EXTRA-ELETRONICO-LIB-CONFIRA-SEU-LIMITE-15X-COM-ACRESCIMOS-W53-EMM&adj_creative=email&adj_label=https://www.cea.com.br/cea-pay&adj_fallback=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_redirect=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_redirect_macos=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_redirect_ios=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_redirect_android=https%3A%2F%2Fwww.cea.com.br%2Fcea-pay&adj_idfa=https://www.cea.com.br/cea-pay&adj_gps_adid=https://www.cea.com.br/cea-pay" target="_blank" style="display: block; text-decoration: none; color: #ffffff; padding: 20px 0 20px 0;">
-                     <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->
-                      <b>confira seu limite</b>
-                     <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->
-                    </a>
-                  </font>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td align="center" valign="top" style="padding: 0 10px 60px 10px" bgcolor="#0b0606">
-            <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px" bgcolor="#0b0606">
-              <tr>
-                <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 35px; color: #ffffff; text-align: center; line-height: 1.2;">
-                  te esperamos em uma de nossas <a href="https://www.cea.com.br/lojas?utm_source=extra-celular&utm_medium=15x-com-acrescimos&utm_campaign=w53&utm_id=email" target="_blank" style="color: #ffffff; text-decoration: none;">lojas físicas C&A!</a> 
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]></td></tr></table><![endif]-->
-          </td>
-        </tr>
-        <tr>
-          <td align="center" valign="top" style="padding: 20px 18px 30px 18px" bgcolor="#ffffff">
-            <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px" bgcolor="#ffffff">
-              <tr>
-                <td align="left" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 11px; color: #000000; text-align: justify; line-height: 1.2;">
-                  (1)Limite exclusivo somente para a compra de celular Samsung realizada nas lojas físicas C&A. (2) Parcele suas compras e pague em até 6x, 8x e 10x sem juros, com parcelas mínimas de R$ 50,00. *Para o parcelamento em até 15X será cobrado o juros de 2,99% ao mês. Consulte o limite disponível em uma de nossas lojas físicas ou no App C&A Pay. Os preços dos produtos podem variar de acordo com a região, consulte a disponibilidade na loja.
-                  <br>
-                  Opções de parcelamento disponíveis para parcela mínima de R$50,00. **Preço das peças Atenção:\ Preço válido para produtos disponíveis no Site e App C&A por tempo indeterminado, nas lojas físicas os preços podem variar de acordo com a região. C&A Pay Sociedade de Crédito Direto S.A. empresa do Grupo C&A Modas S.A fica na Alameda Araguaia, 1222, Alphaville, Barueri, SP, 06455-000 BR Sac: 0800 940 4520 (De 2ª a sábado, das 9h às 21:40h). Ouvidoria: 0800 374 6012 (De 2ª a 6ª feira, das 10h às 16h, exceto feriados nacionais). Todas as suas informações pessoais são mantidas em confidencialidade no momento da compra. Veja nossa Política de Privacidade, Termos de uso do C&A Pay, Tarifário do C&A Pay e Regulamento. (3) Oferta válida a partir do Smartphone Samsung Galaxy A04e 64gb, consulte com nossos vendedores o preço dos demais modelos. Estoque limitado e de acordo com a disponibilidade do local da compra. Imagens meramente ilustrativas. Consulte termos e condições.
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]></td></tr></table><![endif]-->
-          </td>
-        </tr> 
-      </table>
-      <!--[if mso]></td></tr></table><![endif]-->
-      <!-- CORPO DO EMAIL -->
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px" bgcolor="#e5d8d0">
+      <tr>
+        <td align="center" valign="top" bgcolor="#e5d8d0">
+          <a href="https://www.cea.com.br/" target="_blank">
+            <img src="https://images.cea-ecommerce.com.br/email/2024/01_janeiro/01012024/01012024_misto_01.gif" width="100%" style="width:100%; max-width: 100%; display: block;" border="0" alt="" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" valign="top" style="padding: 0 10px 40px 10px;" bgcolor="#e5d8d0">
+          <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
+          <table width="85%" cellpadding="0" cellspacing="0" border="0" align="center" style="width: 85%;" bgcolor="#e5d8d0">
+            <tr>
+              <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 17px; color: #231f20; text-align: center; line-height: 1.2;">
+                Mais um ano vai <b>chegando ao fim</b> e, como sempre, aquele sentimento de querer estar rodeado de quem a gente ama vem à tona. É por isso que estamos aqui para agradecer a todas as famílias que, independente da cultura e religião, puderam compartilhar <b>momentos especiais ao nosso lado.</b>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" style="font-family: Century Gothic, sans-serif; font-weight: 300; font-size: 17px; color: #231f20; text-align: center; line-height: 1.2; padding: 20px 0 0 0;">
+                <b>Em 2024,</b> estaremos de braços abertos para, mais uma vez, dividir experiências e celebrar juntos novas conquistas, sempre mostrando que é possível escolher um presente do seu jeito aqui na C&A. <b>Até breve! <3</b>
+              </td>
+            </tr>
+          </table>
+          <!--[if mso]></td></tr></table><![endif]-->
+        </td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#e5d8d0">
+          <table border="0" cellpadding="0" cellspacing="0" width="210" style="width: 210px;">
+            <tr>
+              <td align="center" bgcolor="#000000" height="60" style="border-radius: 10px 10px 10px 10px; height: 60px;">
+                <font face="Century Gothic, sans-serif" style="font-size: 16px; font-weight: 300; line-height: 1.2; color:#ffffff; display: block;">
+                  <a href="https://www.cea.com.br/" target="_blank" style="display: block; text-decoration: none; color: #ffffff; padding: 20px 0 20px 0;">
+                  <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->
+                    <b>confira!</b>
+                  <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->
+                  </a>
+                </font>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td align="right" valign="top" bgcolor="#e5d8d0">
+          <a href="https://www.cea.com.br/" target="_blank">
+            <img src="https://images.cea-ecommerce.com.br/email/2024/01_janeiro/01012024/01012024_misto_02.png" width="238" style="width:238px; max-width: 100%; display: block;" border="0" alt="" />
+          </a>
+        </td>
+      </tr>
+    </table>
+    <!--[if mso]></td></tr></table><![endif]-->
+    <!-- CORPO DO EMAIL -->
+
+
+    <!-- FOOTER -->
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px" bgcolor="#ffffff">
+      <!-- BENEF&Iacute;CIOS -->
+      <tr>
+        <td align="center" valign="top" style="font-size: 0; padding: 30px 10px 0px" bgcolor="#FFFFFF">
+          <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
+          <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width: 600px; vertical-align: top; display: inline-table;" bgcolor="#F0F0F0">
+            <tr>
+              <td align="center" valign="top" style="padding: 30px 0px 0px">
+                <!--[if mso]><table width="500" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width: 500px; vertical-align: top;">
+                  <tr>
+                    <td align="center" valign="top" style="padding: 5px 5px">
+                      <!-- IMAGEM -->
+                      <img
+                        src="https://s3.amazonaws.com/appb2c-pages/email/responsivo/footer/novo/entregaexpressa_footer.png" width="80" style="width:80px; max-width:100%; display:block;" border="0" alt="Entrega expressa" />
+                      <!-- IMAGEM -->
+                    </td>
+                    <td align="center" valign="top" style="padding: 5px 5px">
+                      <!-- IMAGEM -->
+                      <img src="https://s3.amazonaws.com/appb2c-pages/email/responsivo/footer/novo/troca_footer.png" width="80" style="width:80px; max-width:100%; display:block; " border="0" alt="Troca f&aacute;cil" />
+                      <!-- IMAGEM -->
+                    </td>
+                    <td align="center" valign="top" style="padding: 5px 5px">
+                      <!-- IMAGEM -->
+                      <img src="https://s3.amazonaws.com/appb2c-pages/email/responsivo/footer/novo/cashback_footer.png" width="80" style="width:80px; max-width:100%; display:block;" border="0" alt="Devolu&ccedil;&atilde;o do dinheiro" />
+                      <!-- IMAGEM -->
+                    </td>
+                    <td align="center" valign="top" style="padding: 5px 5px">
+                      <!-- IMAGEM -->
+                      <img
+                        src="https://s3.amazonaws.com/appb2c-pages/email/responsivo/footer/novo/compraonline_footer.png" width="80" style="width:80px; max-width:100%; display:block;" border="0" alt="Compre online" />
+                      <!-- IMAGEM -->
+                    </td>
+                  </tr>
+                </table>
+                <!--[if mso]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </table>
+          <!--[if mso]></td></tr></table><![endif]-->
+        </td>
+      </tr>
+      <tr>
+        <td align="center" valign="top" style="font-size: 0; padding: 0px 10px 0px" bgcolor="#FFFFFF">
+          <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
+          <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width: 600px; vertical-align: top; display: inline-table;" bgcolor="F0F0F0">
+            <tr>
+              <td>
+                <!--[if mso]><table width="500" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width: 500px; vertical-align: top;">
+                  <tr>
+                    <td align="center" valign="top" style="font-family: Helvetica, sans-serif; font-weight: normal; font-size: 14px; color: #282828; text-align: center; line-height: 16px; width:80px; max-width:100%; padding: 0px 2px 20px;">
+                      <!-- TEXTO -->
+                      <strong>Entrega expressa</strong>
+                      <br>para S&atilde;o Paulo<sup>1</sup>
+                      <!-- TEXTO -->
+                    </td>
+                    <td align="center" valign="top" style="font-family: Helvetica, sans-serif; font-weight: normal; font-size: 14px; color: #282828; text-align: center; line-height: 16px; width:80px; max-width:100%; padding: 0px 0px 20px;">
+                      <!-- TEXTO -->
+                      <strong>Troca f&aacute;cil</strong>
+                      <br>na loja<sup>2</sup>
+                      <!-- TEXTO -->
+                    </td>
+                    <td align="center" valign="top" style="font-family: Helvetica, sans-serif; font-weight: normal; font-size: 14px; color: #282828; text-align: center; line-height: 16px; width:80px; max-width:100%; padding: 0px 0px 20px;">
+                      <!-- TEXTO -->
+                      <strong>Devolu&ccedil;&atilde;o</strong>
+                      <br>do dinheiro<sup>3</sup>
+                      <!-- TEXTO -->
+                    </td>
+                    <td align="center" valign="top" style="font-family: Helvetica, sans-serif; font-weight: normal; font-size: 14px; color: #282828; text-align: center; line-height: 16px; width:80px; max-width:100%;  padding: 0px 2px 20px">
+                      <!-- TEXTO -->
+                      <strong>Compre online</strong>
+                      <br>e retire na loja<sup>4</sup>
+                      <!-- TEXTO -->
+                    </td>
+                  </tr>
+                </table>
+                <!--[if mso]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </table>
+          <!--[if mso]></td></tr></table><![endif]-->
+        </td>
+      </tr>
+      <!-- BENEF&Iacute;CIOS -->
+      <!-- APP -->
+      <tr>
+        <td align="center" valign="top" style="font-size: 0; padding: 0px 10px 0px" bgcolor="#FFFFFF">
+          <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
+          <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width: 600px; vertical-align: top; display: inline-table;" bgcolor="#F0F0F0">
+            <tr>
+              <td>
+                <!--[if mso]><table width="370" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width: 370px; vertical-align: top;">
+                  <tr>
+                    <td align="center" valign="top" style="padding: 0px 0px 0px 10px">
+                      <!-- LINK -->
+                      <a href="https://play.google.com/store/apps/details?id=br.com.cea.appb2c&shortlink=Footer&pid=Email&af_channel=Footer%20(android)" target="_blank" alias="Google Play">
+                        <!-- IMAGEM -->
+                        <img
+                          src="https://s3.amazonaws.com/appb2c-pages/email/responsivo/footer/novo/playstore_footer.png" width="160" style="width:160px; max-width:100%; display:block;" border="0" alt="Dispon&iacute;vel no Google Play" />
+                        <!-- IMAGEM -->
+                      </a>
+                      <!-- LINK -->
+                    </td>
+                    <td align="center" valign="top" style="padding: 0px 10px 0px 0px">
+                      <!-- LINK -->
+                      <a href="https://apps.apple.com/br/app/c-a-brasil/id1168148250?af_channel=Footer%20%28ios%29&pid=Email&shortlink=footerios" target="_blank" alias="Apple Store">
+                        <!-- IMAGEM -->
+                        <img
+                          src="https://s3.amazonaws.com/appb2c-pages/email/responsivo/footer/novo/appstore_footer.png" width="160" style="width:160px; max-width:100%; display:block; " border="0" alt="Dispon&iacute;vel na Apple Store" />
+                        <!-- IMAGEM -->
+                      </a>
+                      <!-- LINK -->
+                    </td>
+                  </tr>
+                </table>
+                <!--[if mso]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </table>
+          <!--[if mso]></td></tr></table><![endif]-->
+        </td>
+      </tr>
+      <tr>
+        <td align="center" valign="top" style="font-size: 0; padding: 0px 10px 0px">
+          <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
+          <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width: 600px; vertical-align: top; display: inline-table;" bgcolor="#F0F0F0">
+            <tr>
+              <td align="center" valign="top" style="padding: 20px 10px 20px">
+                <!--[if mso]><table width="250" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="0" style="max-width: 250px; display: inline-table;" bgcolor="#F0F0F0">
+                  <tr>
+                    <td align="center" valign="middle" style="padding: 10px; font-family: Helvetica, sans-serif; font-size:15px; color: #282828; font-weight: normal;">
+                      <!-- TEXTO -->
+                      Siga a <strong>C&A:</strong>
+                      <!-- TEXTO -->
+                    </td>
+                    <td align="center" valign="middle" style="padding: 10px 5px;">
+                      <!-- LINK -->
+                      <a href="https://www.facebook.com/ceaBrasil" target="_blank" style="text-decoration: none;" alias="Facebook">
+                        <!-- IMAGEM -->
+                        <img
+                          src="https://s3.amazonaws.com/appb2c-pages/email/responsivo/footer/novo/facebook_footer_33.png" width="33" border="0" alt="Facebook" />
+                        <!-- IMAGEM -->
+                      </a>
+                      <!-- LINK -->
+                    </td>
+                    <td align="center" valign="middle" style="padding: 10px 5px;">
+                      <!-- LINK -->
+                      <a href="https://www.instagram.com/cea_brasil" target="_blank" style="text-decoration: none;" alias="Instagram">
+                        <!-- IMAGEM -->
+                        <img
+                          src="https://s3.amazonaws.com/appb2c-pages/email/responsivo/footer/novo/instagram_footer_33.png" width="33" border="0" alt="Instagram" />
+                        <!-- IMAGEM -->
+                      </a>
+                      <!-- LINK -->
+                    </td>
+                    <td align="center" valign="middle" style="padding: 10px 5px;">
+                      <!-- LINK -->
+                      <a href="https://www.youtube.com/user/cea" target="_blank" style="text-decoration: none;" alias="Youtube">
+                        <!-- IMAGEM -->
+                        <img
+                          src="https://s3.amazonaws.com/appb2c-pages/email/responsivo/footer/novo/youtube_footer_33.png" width="33" border="0" alt="Youtube" />
+                        <!-- IMAGEM -->
+                      </a>
+                      <!-- LINK -->
+                    </td>
+                  </tr>
+                </table>
+                <!--[if mso]></td><td align="center" valign="top"><![endif]-->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="0" style="max-width: 250px; display: inline-table;" bgcolor="#F0F0F0">
+                  <tr>
+                    <td align="center" valign="middle" style="padding: 10px;">
+                      <!-- IMAGEM -->
+                      <img
+                        src="https://s3.amazonaws.com/appb2c-pages/email/responsivo/footer/novo/seguranca_footer_33.png" width="33" border="0" alt="Compra online" />
+                      <!-- IMAGEM -->
+                    </td>
+                    <td align="center" valign="middle" style="font-family: Helvetica, sans-serif; font-size:15px; color: #282828; font-weight: normal; padding:10px">
+                      <!-- TEXTO -->
+                      Compra online <strong>100% segura</strong>
+                      <!-- TEXTO -->
+                    </td>
+                  </tr>
+                </table>
+                <!--[if mso]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </table>
+          <!--[if mso]></td></tr></table><![endif]-->
+        </td>
+      </tr>
+      <!-- APP -->
+      <!-- TEXTO LEGAL -->
+      <tr>
+        <td align="center" valign="top" style="padding: 0px 10px 10px" bgcolor="#FFFFFF">
+          <!--[if mso]><table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td align="center" valign="top"><![endif]-->
+          <table width="100%" cellpadding="0" cellspacing="0" border="0" align="0" style="max-width: 600px;" bgcolor="#F0F0F0">
+            <tr>
+              <!-- TEXTO -->
+              <td align="center" valign="top" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; font-weight: normal; color:#282828; text-align: justify; line-height: 18px; padding: 0px 20px 0px">
+                Para receber os nossos comunicados na caixa de entrada adicione o e-mail <a
+                  href="mailto:mailto:cea@mail.e.cea.com.br" style="color: #282828; font-weight: bold; text-decoration: none;">cea@mail.e.cea.com.br</a>
+                em sua lista de remetentes confi&aacute;veis.
+                <br><br><strong>1. Entrega Expressa</strong>
+                <br>Pedidos com pagamento aprovado at&eacute; &agrave;s 11:30 ser&atilde;o entregues no mesmo dia, exceto aos
+                domingos e feriados. Pedidos com pagamento aprovado ap&oacute;s as 11:30 ser&atilde;o entregues no
+                pr&oacute;ximo dia &uacute;til at&eacute; &aacute;s 21h. Pedidos realizados aos s&aacute;bados ap&oacute;s 11:30, domingos o
+                feriados ser&atilde;o entregues no pr&oacute;ximo dia &uacute;til at&eacute; &agrave;s 21h.
+
+                <br><br><strong>2. Troca F&aacute;cil na loja ou no site</strong>
+                <br>Prazo para troca: at&eacute; 30 dias a partir da emiss&atilde;o do cupom fiscal. Para fazer trocas
+                de pedidos, entre em contato com o Fale Conosco ou v&aacute; at&eacute; uma loja f&iacute;sica <a
+                  href="http://www.cea.com.br/politicas-cea?utm_content=veja_mais" target="_blank" style="color: #282828; font-weight: bold; text-decoration: none;">(veja detalhes
+                  aqui).</a>
+
+                <br><br><strong>3. Devolu&ccedil;&atilde;o do dinheiro</strong>
+                <br>Prazo para troca e solicita&ccedil;&atilde;o de devolu&ccedil;&atilde;o de dinheiro: at&eacute; 30 dias a partir da
+                emiss&atilde;o do cupom fiscal.
+
+                <br><br><strong>4. Clique e Retire</strong>
+                <br>Dispon&iacute;vel para retirada em todas as lojas f&iacute;sicas C&A. No momento da compra,
+                selecione a loja mais pr&oacute;xima de voc&ecirc;. Ap&oacute;s aprova&ccedil;&atilde;o do pagamento, voc&ecirc; receber&aacute; um
+                e-mail informando assim que seu produto puder ser retirado. <a
+                  href="http://www.cea.com.br/servicos/clique-e-retire?utm_content=saiba_mais" target="_blank" style="color: #282828; font-weight: bold; text-decoration: none;">Saiba mais.</a>
+              </td>
+              <!-- TEXTO -->
+            </tr>
+            <tr>
+              <!-- TEXTO -->
+              <td align="center" valign="top" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; font-weight: normal; color:#282828; text-align: justify; line-height: 18px; padding: 0px 20px 30px">
+                <br><strong>Fale Conosco</strong>
+                <br>Sugest&atilde;o, coment&aacute;rio ou d&uacute;vida sobre a C&A ou produtos e servi&ccedil;os? Fale Conosco pelo
+                e-mail <a href="mailto:faleconosco@cea.com.br" style="color: #282828; font-weight: bold; text-decoration: none;">faleconosco@cea.com.br</a>
+                ou telefone, no (11) 4571-2960. Atendemos de segunda a s&aacute;bado, das 9h &agrave;s 21h.
+
+                <br><br><strong>Prazos e Entregas</strong>
+                <br>O prazo para entrega contempla estoque, regi&atilde;o, processo de emiss&atilde;o da nota fiscal e
+                o tempo de separa&ccedil;&atilde;o do produto. Nosso prazo &eacute; contado a partir do dia &uacute;til seguinte a
+                sua confirma&ccedil;&atilde;o de pagamento e dados cadastrais. As entregas s&atilde;o feitas de segunda a
+                sexta-feira, das 9h &agrave;s 21h.
+
+                <br><br><strong>Frete Gr&aacute;tis</strong>
+                <br>Calculamos seu frete automaticamente, de acordo com a regi&atilde;o de entrega do pedido.
+                S&atilde;o Paulo Capital e Regi&atilde;o Metropolitana e capitais do Sudeste: frete gr&aacute;tis em compras
+                a partir de R$ 49,00 | Capitais do Sul, Centro-Oeste e Nordeste: Frete Gr&aacute;tis em compras
+                a partir de R$ 99,00 | Capitais do Norte: frete gr&aacute;tis em compras a partir de R$ 149,00.
+                Consulte seu CEP no momento da compra ou veja as todas faixas de Frete Gr&aacute;tis CEP por
+                localidade <a href="http://www.cea.com.br/servicos/clique-e-retire?utm_content=saiba_mais" target="_blank" style="color: #282828; font-weight: bold; text-decoration: none;">aqui.</a>
+
+                <br><br><strong>Pre&ccedil;os e promo&ccedil;&otilde;es</strong>
+                <br>Os pre&ccedil;os dos produtos podem mudar sem aviso pr&eacute;vio e s&atilde;o v&aacute;lidos at&eacute; o fim do
+                estoque. Os produtos anunciados n&atilde;o incluem o valor do frete. Os descontos em valores de
+                compra n&atilde;o est&atilde;o ligados a descontos de frete. As fotos s&atilde;o meramente ilustrativas.
+
+                <br><br>A C&A Modas Ltda. fica na Alameda Araguaia, 1222, Alphaville, Barueri - SP. Cep:
+                06455-000. Todas as suas informa&ccedil;&otilde;es pessoais s&atilde;o mantidas em confidencialidade no
+                momento da compra. Veja nossa Pol&iacute;tica de Privacidade <a
+                  href="https://www.cea.com.br/politicas-cea#politica-privacidade" target="_blank" style="color: #282828; font-weight: bold; text-decoration: none;">aqui.</a>
+              </td>
+              <!-- TEXTO -->
+            </tr>
+          </table>
+          <!--[if mso]></td></tr></table><![endif]-->
+        </td>
+      </tr>
+      <!-- TEXTO LEGAL -->
+
+      <!-- CADASTRO -->
+      <tr>
+        <td align="center" valign="top" bgcolor="#FFFFFF" style=" padding: 0px 40px 15px">
+          <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+              <td align="left" valign="middle" style="font-family:arial; font-size:14px; color:#333333; text-align:left;">
+                <!-- LINK -->
+                <a href="${form(campaign.name, {'usedb', true})}" target="_blank" style="color: #C5C5C5; text-decoration: underline;">
+                  ver online
+                </a>
+                <!-- LINK -->
+              </td>
+              <td align="right" valign="middle" style="font-family:arial; font-size:14px; color:#333333; text-align:right;">
+                <!-- LINK -->
+                <a href="${form('Form_OptOut', 'CONTACTS_LIST.EMAIL_ADDRESS_')}" target="_blank" style="color: #C5C5C5; text-decoration: underline;">
+                  descadastre-se
+                </a>
+                <!-- LINK -->
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- CADASTRO -->
+    </table>
+    <!-- FOOTER -->
   </div>
 </body>
 
